@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.menu {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+    color: aquamarine;
+    background-color: blue;
+}
+
+.contianer {
+    gap: 250px;
+    display: flex;
+    padding: 50px;
+    background-color: aquamarine;
+}
+
+.paral {
+    color: black;
+    margin: 10px;
+    border-radius: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.imees{
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+}
+.button {
+    background-color:rgb(235, 15, 89);
+    color: whitesmoke;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 10px;
+    gap: 10px;
+}
+
+.gri-dcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    margin: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.gri-dcontainer>div {
+    box-shadow: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: tranform 0.5s ease;
+    color: black;
+    border: 1px solid rgb green;
+    border-radius: 8px;
+
+}
+
+.gri-dcontainer>div img {
+    width: 100px;
+}
+
+.item1 {
+    border: 2px solid blue;
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+
+}
+
+.item6 {
+    border: 2px solid blue;
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+
+
+}
+
+.item2 {
+    border: 2px solid blue;
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+}
+
+.item3 {
+    border: 2px solid blue;
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+}
+
+.item4 {
+    border: 2px solid blue;
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+}
+
+.item5 {
+    border: 2px solid blue;
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+}
+
+.aaa {
+    text-align: center;
+}
+
+.aa {
+    text-align: center;
+}
+
+.para2 {
+    text-align: center;
+    margin: 40px;
+
+}
+
+.text {
+    gap: 20px;
+    display: flex;
+    margin: 50px;
+    border: 30px;
+    margin-top: 20px;
+    padding: 100px;
+    background-color: aquamarine;
+}
+
+.header {
+    text-align: center;
+}
+
+.header1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    margin: 40px;
+    margin-left: 40px;
+}
+
+.header2 {
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.header4 {
+    height: 200px;
+    width: 200px;
+
+    border-radius: 10px;
+}
+
+.header3 {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.icon {
+    background-color: rgb(54, 54, 212);
+    height: 60px;
+    width: 70px;
+    border: 2px solid rgb(54, 54, 212);
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.icon1 {
+    background-color: rgb(2, 2, 192);
+    height: 60px;
+    width: 70px;
+    border: 2px solid rgb(2, 2, 192);
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+
+}
+
+.icon2 {
+    background-color: red;
+    height: 60px;
+    width: 70px;
+    border: 2px solid red;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.hedar{
+    text-align: center;
+}
+.button1{
+    background-color:rgb(238, 15, 89);
+    color:whitesmoke;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 10
+}
+.contianer1 {
+    gap: 250px;
+    display: flex;
+    padding: 50px;
+    background-color: white;
+}
+
+.paral {
+    color: black;
+    margin: 10px;
+    border-radius: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: aquamarine;
+}
+.icon4{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 8px;
+    margin: 40px;
+    margin-left: 40px;
+}

@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 65%;
+    line-height: 50px;
+    background-color: rgb(24, 245, 171);
+    border: 2px solid rgb(red, green, blue);
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+}
+nav ul li{
+    color:black;
+    font-size: 16px;
+}
+nav ul li :hover{
+    color: antiquewhite;
+}
+.for{
+    background-color: aquamarine;
+    display: flex;
+    margin: 50px;
+    border: 30px;
+    margin-top: 20px; 
+    padding: 100px;
+}
+.gri-dcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto  auto auto;
+    grid-gap:10px;
+    margin-bottom: 20px;
+
+}
+.gri-dcontainer > div{
+    box-shadow: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: tranform 0.5s ease;
+    color: black;
+    border: 1px solid rgb green;
+    border-radius: 8px;
+}
+.gri-dcontainer > div img{
+    width: 100px;
+}
+.aaa{
+    text-align: center;
+}
+.aa{
+    text-align: center;
+}
+.fb{
+    color: black;
+    margin: 20px;
+}
+.wh{
+    margin: 20px;
+    color: rgb(45, 245, 45);
+}
+.me{
+    margin: 20px;
+    color: blue;
+}
+.ph{
+    margin: 20px;
+    color: red;
+}
+.ti{
+    margin: 20px;
+    color: black;
+}
+.go{
+    margin: 20px;
+    color:gold;
+}
+
